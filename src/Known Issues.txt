@@ -1,0 +1,16 @@
+Known Issues:
+1.
+The index of the ballotBoxList starts with 0 (List attribute) and our index of showing and choosing Ballot Boxes starts with 1,
+therefore we did the "getKalfiNum" method with a minus 1 return to connect the 2 aspects together.
+
+2.
+If a Voter(can or cannot vote) chooses a wrong type ballot box to vote in, he wont be able to vote, (normal voters cant vote in Corona ballot boxes). we didnt gave him a second chance to choose a ballot Box.
+
+3.
+If i had 2 citizens trying to use the same ID number(different names) , i chose to switch one of theirs ID's randomlly, so it will be no simillarites.
+
+4.
+Every voter is a citizen, but a citizen is an abstarct class (more like a "person") , therefore not every "voter" can vote. he is just a class with a potential to vote.
+
+5. 
+If a soldier answers "true" on the carry a weapon question he wouldnt be able to vote also.
